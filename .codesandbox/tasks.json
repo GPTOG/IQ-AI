@@ -1,0 +1,243 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "npm install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "update": {
+      "name": "update",
+      "command": "npm run update",
+      "runAtStart": false
+    },
+    "add-balance": {
+      "name": "add-balance",
+      "command": "npm run add-balance",
+      "runAtStart": false
+    },
+    "rebuild:package-lock": {
+      "name": "rebuild:package-lock",
+      "command": "npm run rebuild:package-lock",
+      "runAtStart": false
+    },
+    "reinstall": {
+      "name": "reinstall",
+      "command": "npm run reinstall",
+      "runAtStart": false
+    },
+    "b:reinstall": {
+      "name": "b:reinstall",
+      "command": "npm run b:reinstall",
+      "runAtStart": false
+    },
+    "reinstall:docker": {
+      "name": "reinstall:docker",
+      "command": "npm run reinstall:docker",
+      "runAtStart": false
+    },
+    "update:local": {
+      "name": "update:local",
+      "command": "npm run update:local",
+      "runAtStart": false
+    },
+    "update:docker": {
+      "name": "update:docker",
+      "command": "npm run update:docker",
+      "runAtStart": false
+    },
+    "update:single": {
+      "name": "update:single",
+      "command": "npm run update:single",
+      "runAtStart": false
+    },
+    "update:sudo": {
+      "name": "update:sudo",
+      "command": "npm run update:sudo",
+      "runAtStart": false
+    },
+    "update:deployed": {
+      "name": "update:deployed",
+      "command": "npm run update:deployed",
+      "runAtStart": false
+    },
+    "rebase:deployed": {
+      "name": "rebase:deployed",
+      "command": "npm run rebase:deployed",
+      "runAtStart": false
+    },
+    "start:deployed": {
+      "name": "start:deployed",
+      "command": "npm run start:deployed",
+      "runAtStart": false
+    },
+    "stop:deployed": {
+      "name": "stop:deployed",
+      "command": "npm run stop:deployed",
+      "runAtStart": false
+    },
+    "upgrade": {
+      "name": "upgrade",
+      "command": "npm run upgrade",
+      "runAtStart": false
+    },
+    "create-user": {
+      "name": "create-user",
+      "command": "npm run create-user",
+      "runAtStart": false
+    },
+    "ban-user": {
+      "name": "ban-user",
+      "command": "npm run ban-user",
+      "runAtStart": false
+    },
+    "backend": {
+      "name": "backend",
+      "command": "npm run backend",
+      "runAtStart": false
+    },
+    "backend:dev": {
+      "name": "backend:dev",
+      "command": "npm run backend:dev",
+      "runAtStart": false
+    },
+    "backend:stop": {
+      "name": "backend:stop",
+      "command": "npm run backend:stop",
+      "runAtStart": false
+    },
+    "build:data-provider": {
+      "name": "build:data-provider",
+      "command": "npm run build:data-provider",
+      "runAtStart": false
+    },
+    "frontend": {
+      "name": "frontend",
+      "command": "npm run frontend",
+      "runAtStart": false
+    },
+    "frontend:ci": {
+      "name": "frontend:ci",
+      "command": "npm run frontend:ci",
+      "runAtStart": false
+    },
+    "frontend:dev": {
+      "name": "frontend:dev",
+      "command": "npm run frontend:dev",
+      "runAtStart": false
+    },
+    "e2e": {
+      "name": "e2e",
+      "command": "npm run e2e",
+      "runAtStart": false
+    },
+    "e2e:ci": {
+      "name": "e2e:ci",
+      "command": "npm run e2e:ci",
+      "runAtStart": false
+    },
+    "e2e:debug": {
+      "name": "e2e:debug",
+      "command": "npm run e2e:debug",
+      "runAtStart": false
+    },
+    "e2e:codegen": {
+      "name": "e2e:codegen",
+      "command": "npm run e2e:codegen",
+      "runAtStart": false
+    },
+    "e2e:login": {
+      "name": "e2e:login",
+      "command": "npm run e2e:login",
+      "runAtStart": false
+    },
+    "e2e:github": {
+      "name": "e2e:github",
+      "command": "npm run e2e:github",
+      "runAtStart": false
+    },
+    "test:client": {
+      "name": "test:client",
+      "command": "npm run test:client",
+      "runAtStart": false
+    },
+    "test:api": {
+      "name": "test:api",
+      "command": "npm run test:api",
+      "runAtStart": false
+    },
+    "e2e:update": {
+      "name": "e2e:update",
+      "command": "npm run e2e:update",
+      "runAtStart": false
+    },
+    "e2e:report": {
+      "name": "e2e:report",
+      "command": "npm run e2e:report",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "npm run format",
+      "runAtStart": false
+    },
+    "b:api": {
+      "name": "b:api",
+      "command": "npm run b:api",
+      "runAtStart": false
+    },
+    "b:api:dev": {
+      "name": "b:api:dev",
+      "command": "npm run b:api:dev",
+      "runAtStart": false
+    },
+    "b:data-provider": {
+      "name": "b:data-provider",
+      "command": "npm run b:data-provider",
+      "runAtStart": false
+    },
+    "b:client": {
+      "name": "b:client",
+      "command": "npm run b:client",
+      "runAtStart": false
+    },
+    "b:client:dev": {
+      "name": "b:client:dev",
+      "command": "npm run b:client:dev",
+      "runAtStart": false
+    },
+    "b:test:client": {
+      "name": "b:test:client",
+      "command": "npm run b:test:client",
+      "runAtStart": false
+    },
+    "b:test:api": {
+      "name": "b:test:api",
+      "command": "npm run b:test:api",
+      "runAtStart": false
+    },
+    "b:balance": {
+      "name": "b:balance",
+      "command": "npm run b:balance",
+      "runAtStart": false
+    }
+  }
+}
